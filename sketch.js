@@ -18,7 +18,7 @@ class raindrop{
     }else if(r < 0.99){
       this.char = '#';
     }else{
-      this.char = "rgb("+round((this.x/750)*255)+",100,"+round((this.y/750)*255)+")";
+      this.char = "rgb("+round((this.x/750)*255)+",100,"+round((this.y/750)*255)+")"; //just for fun hehe
       this.scale = 25;  //text size same for these ones
     }
     //console.log("x: "+this.x+"\ny: "+this.y+"\nchar: "+this.char+"\naplha: "+this.alpha+"\nvelocity: "+this.velocity);
