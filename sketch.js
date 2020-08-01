@@ -60,7 +60,7 @@ function draw() {
   for(var i = rainarr.length-1; i > 0; i -= 1){   //backward looping through the array since forward looping causes skipping if something is deleted
     rainarr[i].work();
     if(rainarr[i].y >= 750){  //bottom of canvas is 750 so i used 750. increase it(750) if you don't wan't the text to disappear while falling like in my video
-      rainarr.splice(i,1);  //delete when y touches botto of the canvas
+      rainarr.splice(i,1);  //delete when y touches bottom of the canvas
     }
   }
   textSize(100);  //this part is just the big "RAINDROP" text
