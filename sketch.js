@@ -54,7 +54,7 @@ function setup(){
 }
 
 function draw() {
-  background(0,0,0); //BLACC baground
+  background(0,0,0); //BLACK baground
   //if(frameCount%50 === 0)
   rainarr.push(new raindrop(random(0,750),random(),random(0,255),random())); //pushing raindrop object. since i want the values to be random i'm using random(min,max) for all parameters
   for(var i = rainarr.length-1; i > 0; i -= 1){   //backward looping through the array since forward looping causes skipping if something is deleted
